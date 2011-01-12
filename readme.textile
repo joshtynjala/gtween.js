@@ -1,0 +1,8 @@
+h1. gtween.js
+
+Parts of the GTween library by Grant Skinner ported to JavaScript.
+
+The following features from the original GTween are not included at this time:
+ * GTweenTimeline
+ * Plugin support
+ * Easing functions
