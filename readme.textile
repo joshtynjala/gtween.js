@@ -1,8 +1,24 @@
 h1. gtween.js
 
-Parts of the GTween library by Grant Skinner ported to JavaScript.
+Parts of the GTween library by "Grant Skinner":http://twitter.com/gskinner ported to JavaScript from ActionScript by "Josh Tynjala":http://twitter.com/joshtynjala.
 
-The following features from the original GTween are not included at this time:
- * GTweenTimeline
- * Plugin support
- * Easing functions
+h2. Usage
+
+If you're familiar with GTween in ActionScript, mostly everything should be as you remember.
+
+bc. new GTween(target, duration,
+{
+	targetProp1: value1,
+	targetProp2: value2
+},
+{
+	tweenProp1: value3,
+	tweenProp2: value4
+});
+
+h2. Unsupported features
+
+The following features from the original GTween are not included in this port. They may be added in the future.
+* GTweenTimeline
+* Plugins
+* Easing functions
