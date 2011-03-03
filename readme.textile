@@ -21,4 +21,4 @@ h2. Unsupported features
 The following features from the original GTween are not included in this port. They may be added in the future.
 * GTweenTimeline
 * Plugins
-* Easing functions
+* Easing functions are not included (but can be used)
